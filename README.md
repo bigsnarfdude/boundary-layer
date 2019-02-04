@@ -1,5 +1,5 @@
 [![Build Status](https://api.travis-ci.org/etsy/boundary-layer.svg?branch=master)](https://travis-ci.org/etsy/boundary-layer)[![Coverage Status](https://coveralls.io/repos/github/etsy/boundary-layer/badge.svg?branch=master&kill_cache=1)](https://coveralls.io/github/etsy/boundary-layer?branch=master)
-# boundary-layer
+# boundary-layer .
 `boundary-layer` is a tool for building [Airflow](https://www.github.com/apache/incubator-airflow) DAGs from human-friendly, structured, maintainable yaml configuration.  It includes first-class support for various usability enhancements that are not built into Airflow itself:
  - Managed resources created and destroyed by Airflow within a DAG: for example, ephemeral DAG-scoped hadoop clusters on [Dataproc](https://cloud.google.com/dataproc/)
  - Type checking and automatic preprocessing on all arguments to all operators, based on flexible schemas
